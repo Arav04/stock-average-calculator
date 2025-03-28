@@ -23,7 +23,7 @@ Pt = st.number_input("🔹 Enter target average price per share:", min_value=0.0
 # Calculate button
 if st.button("📊 Calculate"):
     result = calculate_additional_shares(P1, Q1, P2, Pt)
-    st.success(f"✅ You need to buy {result} more shares at Rs.{P2} to reach an average price of Rs. {Pt}.")
+    st.success(f"✅ You need to buy **{result}** more shares at Rs.{P2} to reach an average price of Rs. {Pt}.")
 
 st.markdown("---")
 st.write("Developed by Aravindhaa Vijayakumar | 💡 [GitHub](https://github.com/yourprofile)")
